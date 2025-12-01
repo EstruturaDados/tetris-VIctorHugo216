@@ -111,3 +111,29 @@ Boa sorte e divirta-se programando!
 
 Equipe de Ensino - ByteBros
 
+## Como compilar e executar
+
+Este repositório inclui implementações em C para os três níveis do desafio:
+
+- `src/novato.c` — Nível Novato (fila circular de 5 peças)
+- `src/aventureiro.c` — Nível Aventureiro (fila + pilha de reserva)
+- `src/mestre.c` — Nível Mestre (operações avançadas, swap, desfazer e troca de 3 peças)
+
+Você pode compilar todos os níveis usando o `Makefile` (gcc é necessário):
+
+```bash
+make all
+```
+
+Isso gera executáveis `novato`, `aventureiro` e `mestre` no diretório raiz.
+
+Exemplo de execução:
+
+```bash
+./novato         # roda o nível Novato
+./aventureiro    # roda o nível Aventureiro
+./mestre         # roda o nível Mestre
+```
+
+Cada programa usa um simples menu por terminal; siga as instruções na tela.
+
